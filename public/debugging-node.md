@@ -41,6 +41,18 @@ $ DEBUG=bullshit node examples/bullshitter
 $ DEBUG=bullshit:parser node examples/bullshitter
 ```
 
+<<
+
+## Other DEBUGables
+
+```bash
+$ NODE_DEBUG=http node script.js
+# http://www.juliengilli.com/2013/05/26/Using-Node.js-NODE_DEBUG-for-fun-and-profit/
+```
+
+- [node-mysql](https://github.com/felixge/node-mysql/#debugging-and-reporting-problems)
+- [node-redis](https://github.com/mranney/node_redis#redisdebug_mode)
+
 >>>
 
 ## `node debug`
